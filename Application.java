@@ -19,6 +19,6 @@ public class Application {
 		DepthFirstSearch aSearch=new DepthFirstSearch();
 		aSearch.DFS(root);
 		System.out.println(aSearch.getTraversed()+" nodes traversed"+"\nHeight of tree: "+aTree.getHeight());
-	}
+	}//end main
 
-}
+}//end class

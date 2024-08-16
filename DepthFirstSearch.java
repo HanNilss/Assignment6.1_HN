@@ -1,6 +1,12 @@
+/**
+ * Class describing a depth first search of a binary tree.
+ * @author hNilsson
+ * CS215
+ */
 public class DepthFirstSearch {       
        Node root;
        int traversed = 0;
+       int height = 0;
        public DepthFirstSearch()
        {               
                    System.out.println("Call DFS with root node to do a Depth First Search.");
